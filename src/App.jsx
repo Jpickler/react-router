@@ -1,13 +1,17 @@
 import { useState } from 'react'
 
 import './App.css'
+import Navbar from './components/NavBar';
 
 function App() {
 
 
   return (
     <>
-      <h1> Hello </h1>
+      <div id="container">
+        <h1>Hello React Router!</h1>
+          <Navbar/>
+    </div>
     </>
   )
 }
